@@ -1,0 +1,774 @@
+@media (min-width: 1281px) {
+	/* CSS */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	/* CSS */
+	._contents_container {
+		flex-direction: column;
+	}
+	._blog_items {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 25px 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	._data_details {
+		display: block;
+	}
+
+	._about_description {
+		width: 100%;
+		color: var(--title-color);
+		text-align: center;
+	}
+	._description {
+		font-size: 12px;
+	}
+	._overlay_section {
+		width: 500px;
+		margin: 0 auto;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	._about_button {
+		display: flex;
+	}
+
+	/* Blog */
+	._blog_items {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 25px 10px;
+	}
+	._blog_container {
+		margin: 0 auto;
+		width: fit-content;
+	}
+	._blog_content {
+		margin-bottom: 40px;
+	}
+
+	/* Service */
+	._service_box {
+		height: 290px;
+	}
+
+	/* Team */
+	._link {
+		margin: auto;
+	}
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/* CSS */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	._nav_lists {
+		display: none;
+	}
+	._mob_menu._close {
+		display: none;
+	}
+
+	._nav_lists._show {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	._mob_menu {
+		display: block;
+	}
+
+	._hero_section {
+		height: auto;
+	}
+
+	._container {
+		display: block;
+	}
+
+	._title_section ._title_description {
+		font-size: 1.5rem;
+	}
+	._hero_img {
+		margin: 30px 0px;
+		text-align: center;
+	}
+	/* About */
+	._data_details {
+		display: block;
+	}
+	._about_description {
+		width: 100%;
+		color: var(--title-color);
+		text-align: center;
+	}
+	._description {
+		font-size: 12px;
+	}
+	._overlay_section {
+		width: 500px;
+		margin: 0 auto;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	._about_button {
+		display: flex;
+	}
+
+	/* SKill */
+	._skill_content {
+		display: block;
+	}
+	._people_choice,
+	._skill_part {
+		width: 100%;
+		text-align: center;
+	}
+	/* Service */
+	._service_contents {
+		display: block;
+	}
+	._service_box {
+		width: 50%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	._box_description {
+		font-size: 13px;
+		font-weight: var(--regular-weight);
+	}
+	._progress {
+		margin: 20px auto;
+		width: 60%;
+	}
+	/*  */
+	/* Portfolio */
+	._content_titls {
+		margin: 15px auto;
+		width: 100%;
+	}
+	._contents_container {
+		flex-direction: column;
+	}
+	._item_1 {
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+
+	/* Blog */
+	._blog_items {
+		display: block;
+	}
+	._blog_container {
+		margin: 0 auto;
+		width: fit-content;
+	}
+	._blog_content {
+		margin-bottom: 40px;
+	}
+	/*  */
+	._link {
+		display: inline-block;
+		margin: auto;
+	}
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+}
+
+@media (max-width: 320px) and (max-width: 480px) {
+	._nav_lists {
+		display: none;
+	}
+	._mob_menu._close {
+		display: none;
+	}
+
+	._nav_lists._show {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	._mob_menu {
+		display: block;
+	}
+	._container {
+		display: block;
+	}
+	._hero_img {
+		margin: 30px 0px;
+		text-align: center;
+	}
+	._title_section ._title {
+		font-size: 2rem;
+	}
+	._title_section ._title_description {
+		font-size: 1.3rem;
+	}
+
+	/* About */
+	._about_data {
+		display: block;
+		width: 100%;
+	}
+	._imgae_about {
+		margin: 0 auto;
+		width: auto;
+	}
+	._overlay_section {
+		width: 321px;
+		margin: 0 auto;
+		position: relative;
+	}
+	._about_title,
+	._des {
+		text-align: center;
+	}
+	._about_button {
+		display: flex;
+	}
+
+	/* Service */
+	._service_contents {
+		display: block;
+	}
+	._service_box {
+		width: 50%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	._box_description {
+		font-size: 13px;
+		font-weight: var(--regular-weight);
+	}
+
+	/* SKill */
+	._skill_content {
+		display: block;
+	}
+	._people_choice,
+	._skill_part {
+		width: 100%;
+		text-align: center;
+	}
+	._progress {
+		margin: 20px auto;
+		width: 60%;
+	}
+
+	/* Portfolio */
+	._content_titls {
+		margin: 15px auto;
+		width: 100%;
+	}
+	._contents_container {
+		flex-direction: column;
+	}
+	._item_1 {
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	._title_link {
+		font-size: 15px;
+	}
+
+	/*  */
+	._link {
+		display: inline-block;
+		margin: auto;
+	}
+
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width: 379px) and (min-width: 240px) {
+	._nav_lists {
+		display: none;
+	}
+	._mob_menu._close {
+		display: none;
+	}
+
+	._nav_lists._show {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	._mob_menu {
+		display: block;
+	}
+	._container {
+		display: block;
+	}
+	._hero_img {
+		margin: 30px 0px;
+		text-align: center;
+	}
+	._title_section ._title {
+		font-size: 2rem;
+	}
+	._title_section ._title_description {
+		font-size: 1.3rem;
+	}
+
+	/* About */
+	._data_details {
+		display: block;
+	}
+	._about_description {
+		width: 100%;
+		color: var(--title-color);
+		text-align: center;
+	}
+	._description {
+		font-size: 12px;
+	}
+	._overlay_section {
+		width: 500px;
+		margin: 0 auto;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	._about_button {
+		display: flex;
+	}
+	/*  */
+	._know_title {
+		font-size: 30px;
+	}
+
+	/*  */
+	._blog_items {
+		display: block;
+	}
+	._blog_container {
+		margin: 0 auto;
+		width: fit-content;
+	}
+	._blog_content {
+		margin-bottom: 40px;
+	}
+
+	/* Service */
+	._service_contents {
+		display: block;
+	}
+	._service_box {
+		width: 50%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	._box_description {
+		font-size: 13px;
+		font-weight: var(--regular-weight);
+	}
+
+	/* SKill */
+	._skill_content {
+		display: block;
+	}
+	._people_choice,
+	._skill_part {
+		width: 100%;
+		text-align: center;
+	}
+	._progress {
+		margin: 20px auto;
+		width: 60%;
+	}
+
+	/* Portfolio */
+	._content_titls {
+		margin: 15px auto;
+		width: 100%;
+	}
+	._contents_container {
+		flex-direction: column;
+	}
+	._item_1 {
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	._title_link {
+		font-size: 15px;
+	}
+
+	/*  */
+	._link {
+		display: inline-block;
+		margin: auto;
+	}
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+}
+@media only screen and (min-width: 380px) and (max-width: 479px) {
+	._nav_lists {
+		display: none;
+	}
+	._mob_menu._close {
+		display: none;
+	}
+
+	._nav_lists._show {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	._mob_menu {
+		display: block;
+	}
+	._container {
+		display: block;
+	}
+	._hero_img {
+		margin: 30px 0px;
+		text-align: center;
+	}
+	._title_section ._title {
+		font-size: 2rem;
+	}
+	._title_section ._title_description {
+		font-size: 1.28rem;
+	}
+
+	/* About */
+	._about_data {
+		display: block;
+		width: 100%;
+	}
+	._imgae_about {
+		margin: 0 auto;
+		width: auto;
+	}
+	._overlay_section {
+		width: 321px;
+		margin: 0 auto;
+		position: relative;
+	}
+	._about_title,
+	._des {
+		text-align: center;
+	}
+	._about_button {
+		display: flex;
+	}
+
+	/* Service */
+	._service_contents {
+		display: block;
+	}
+	._service_box {
+		width: 50%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	._box_description {
+		font-size: 13px;
+		font-weight: var(--regular-weight);
+	}
+
+	/* SKill */
+	._skill_content {
+		display: block;
+	}
+	._people_choice,
+	._skill_part {
+		width: 100%;
+		text-align: center;
+	}
+	._progress {
+		margin: 20px auto;
+		width: 60%;
+	}
+
+	/* Portfolio */
+	._content_titls {
+		margin: 15px auto;
+		width: 100%;
+	}
+	._contents_container {
+		flex-direction: column;
+	}
+	._item_1 {
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	._title_link {
+		font-size: 15px;
+	}
+
+	/*  */
+	._link {
+		display: inline-block;
+		margin: auto;
+	}
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	._nav_lists {
+		display: none;
+	}
+	._mob_menu._close {
+		display: none;
+	}
+
+	._nav_lists._show {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	._mob_menu {
+		display: block;
+	}
+	._hero_section {
+		height: auto;
+	}
+
+	._container {
+		display: block;
+	}
+
+	._title_section ._title_description {
+		font-size: 1.25rem;
+	}
+	._hero_img {
+		margin: 30px 0px;
+		text-align: center;
+	}
+
+	/* About */
+	._about_data {
+		display: block;
+		width: 100%;
+	}
+	._imgae_about {
+		margin: 0 auto;
+		width: auto;
+	}
+	._overlay_section {
+		width: 321px;
+		margin: 0 auto;
+		position: relative;
+	}
+	._about_title,
+	._des {
+		text-align: center;
+	}
+	._about_button {
+		display: flex;
+	}
+
+	/* Service */
+	._service_contents {
+		display: block;
+	}
+	._service_box {
+		width: 50%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	._box_description {
+		font-size: 13px;
+		font-weight: var(--regular-weight);
+	}
+
+	/* SKill */
+	._skill_content {
+		display: block;
+	}
+	._people_choice,
+	._skill_part {
+		width: 100%;
+		text-align: center;
+	}
+	._progress {
+		margin: 20px auto;
+		width: 60%;
+	}
+
+	/* Portfolio */
+	._content_titls {
+		margin: 15px auto;
+		width: 100%;
+	}
+	._contents_container {
+		flex-direction: column;
+	}
+	._item_1 {
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	._title_link {
+		font-size: 15px;
+	}
+	/*  */
+	._data_details {
+		display: block;
+	}
+	._about_description {
+		width: 100%;
+		color: var(--title-color);
+		text-align: center;
+	}
+	._description {
+		font-size: 12px;
+	}
+	._overlay_section {
+		width: 500px;
+		margin: 0 auto;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	._about_button {
+		display: flex;
+	}
+	/*  */
+	._know_title {
+		font-size: 30px;
+	}
+
+	/*  */
+	._screen_body {
+		flex-direction: column;
+	}
+
+	._screen_body_item._left {
+		margin-bottom: 30px;
+	}
+
+	._app_title {
+		flex-direction: row;
+	}
+
+	._app_title span {
+		margin-right: 12px;
+	}
+
+	._app_title:after {
+		display: none;
+	}
+	/*  */
+	._blog_items {
+		display: block;
+	}
+	._blog_container {
+		margin: 0 auto;
+		width: fit-content;
+	}
+	._blog_content {
+		margin-bottom: 40px;
+	}
+
+	/*  */
+	._link {
+		display: inline-block;
+		margin: auto;
+	}
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+	/*  */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	._hero_section {
+		height: auto;
+	}
+
+	._container {
+		display: block;
+	}
+
+	._title_section ._title_description {
+		font-size: 1.4rem;
+	}
+	._hero_img {
+		margin: 30px 0px;
+		text-align: center;
+	}
+
+	._about_data {
+		display: block;
+		width: 100%;
+	}
+	._imgae_about {
+		margin: 0 auto;
+		width: auto;
+	}
+	/* ._overlay_section {
+		width: 321px;
+		margin: 0 auto;
+		position: relative;
+	} */
+	._about_title,
+	._des {
+		text-align: center;
+	}
+	._about_button {
+		display: flex;
+	}
+
+	/* SKill */
+	._skill_content {
+		display: block;
+	}
+	._people_choice,
+	._skill_part {
+		width: 100%;
+		text-align: center;
+	}
+	/* Service */
+	._service_contents {
+		display: block;
+	}
+	._service_box {
+		width: 50%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	._progress {
+		margin: 20px auto;
+		width: 60%;
+	}
+
+	/* Portfolio */
+	._content_titls {
+		margin: 15px auto;
+		width: 100%;
+	}
+	._contents_container {
+		flex-direction: column;
+	}
+	._item_1 {
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	/*  */
+	._link {
+		display: inline-block;
+		margin: auto;
+	}
+	/*  */
+	._footer_link {
+		margin: 0 10px;
+	}
+}
